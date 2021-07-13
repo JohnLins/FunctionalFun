@@ -1,3 +1,5 @@
+
 main :: IO ()
 main = do
-    print(filter (\x -> x/20 > 1 ) [1..40])
+    let func = (\x -> x/20 > 1 )
+    print (func 6)
